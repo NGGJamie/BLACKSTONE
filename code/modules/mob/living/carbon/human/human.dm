@@ -14,9 +14,9 @@
 
 	//initialise organs
 	create_internal_organs() //most of it is done in set_species now, this is only for parent call
-	physiology = new()
+	physiology = nasdfew()
 
-	. = ..()
+	. = ..()ddd
 
 	RegisterSignal(src, COMSIG_COMPONENT_CLEAN_ACT, .proc/clean_blood)
 	AddComponent(/datum/component/personal_crafting)
